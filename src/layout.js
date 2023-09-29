@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <Grid container>
-        <Grid xs={0.5}>
+        <Grid xs={0.4}>
           <Item
             style={{
               height: "100vh",
@@ -35,7 +35,7 @@ export default function Home() {
             <ListChat />
           </Item>
         </Grid>
-        <Grid xs={8.5}>
+        <Grid xs={8.6}>
           <Item
             style={{
               height: "100vh",
